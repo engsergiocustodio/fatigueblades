@@ -1,0 +1,273 @@
+
+ ===================================================
+  XFOIL Version 6.96
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>   ...............................................
+
+  G raphics-enable flag:        T
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>   ...............................................
+
+  G raphics-enable flag:        F
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>  
+ XFOIL   c>   
+ Plain airfoil file
+
+Enter airfoil name   s>  
+ Number of input coordinate points:  52
+ Counterclockwise ordering
+ Max thickness =     0.180011  at x =   0.402
+ Max camber    =     0.033071  at x =   0.500
+
+  LE  x,y  =   0.00001   0.00004  |   Chord =   0.99999
+  TE  x,y  =   1.00000   0.00000  |
+
+ Current airfoil nodes set from buffer airfoil nodes (  52 )
+
+ XFOIL   c>  
+.OPERi   c>  
+.OPERi   c>  
+.OPERi   c>  
+.OPERi   c>   
+ M  =    0.0000
+ Re =   3000000
+
+.OPERv   c>  
+ Polar  1 newly created for accumulation
+ Airfoil archived with polar:                                                 
+
+Enter  polar save filename  OR  <return> for no file   s>   
+ Polar save file will NOT be written
+
+Enter  polar dump filename  OR  <return> for no file   s>   
+ Polar dump file will NOT be written
+ 
+ Polar accumulation enabled
+
+.OPERva   c>   Calculating unit vorticity distributions ...
+ Calculating wake trajectory ...
+ STFIND: Stagnation point not found. Continuing ...
+ Calculating source influence matrix ...
+ 
+ Solving BL system ...
+ 
+ Initializing BL ...
+    side            1  ...
+ MRCHUE: Convergence failed at   3  side 1    Res =  0.6448E+00
+ MRCHUE: Convergence failed at   4  side 1    Res =  0.1592E+01
+ MRCHUE: Inverse mode at   5     Hk =   4.041
+ MRCHUE: Inverse mode at   6     Hk =   2.500
+ MRCHUE: Inverse mode at  10     Hk =   2.500
+ MRCHUE: Inverse mode at  11     Hk =   2.500
+ MRCHUE: Convergence failed at  12  side 1    Res =  0.5666E+01
+ MRCHUE: Convergence failed at  13  side 1    Res =  0.4509E+02
+ MRCHUE: Inverse mode at  14     Hk =   2.500
+ MRCHUE: Convergence failed at  15  side 1    Res =  0.2251E+02
+ MRCHUE: Inverse mode at  16     Hk =   2.500
+ MRCHUE: Convergence failed at  17  side 1    Res =  0.1926E+02
+ MRCHUE: Convergence failed at  18  side 1    Res =  0.7888E+02
+ MRCHUE: Inverse mode at  19     Hk =   2.500
+ MRCHUE: Convergence failed at  20  side 1    Res =  0.1188E+02
+ MRCHUE: Convergence failed at  21  side 1    Res =  0.8320E+02
+ MRCHUE: Convergence failed at  22  side 1    Res =  0.1311E+03
+ MRCHUE: Convergence failed at  23  side 1    Res =  0.1413E+02
+ MRCHUE: Convergence failed at  24  side 1    Res =  0.2084E+02
+ MRCHUE: Convergence failed at  25  side 1    Res =  0.3934E+01
+ MRCHUE: Convergence failed at  26  side 1    Res =  0.1487E+02
+ MRCHUE: Inverse mode at  27     Hk =   2.500
+    side            2  ...
+ MRCHUE: Inverse mode at   2     Hk =   3.800
+ MRCHUE: Inverse mode at   3     Hk =   3.800
+ MRCHUE: Inverse mode at   4     Hk =   3.800
+ MRCHUE: Inverse mode at   5     Hk =   3.800
+ MRCHUE: Inverse mode at   6     Hk =   3.800
+ MRCHUE: Inverse mode at   7     Hk =   3.800
+ MRCHUE: Inverse mode at   8     Hk =   3.800
+ MRCHUE: Inverse mode at   9     Hk =   3.800
+ MRCHUE: Inverse mode at  10     Hk =   3.800
+ MRCHUE: Inverse mode at  11     Hk =   3.800
+ MRCHUE: Inverse mode at  12     Hk =   3.800
+ MRCHUE: Inverse mode at  13     Hk =   3.800
+ MRCHUE: Inverse mode at  14     Hk =   3.800
+ MRCHUE: Inverse mode at  15     Hk =   3.800
+ MRCHUE: Inverse mode at  16     Hk =   3.800
+ MRCHUE: Inverse mode at  17     Hk =   3.800
+ MRCHUE: Inverse mode at  18     Hk =   3.800
+ MRCHUE: Inverse mode at  19     Hk =   3.800
+ MRCHUE: Inverse mode at  20     Hk =   3.800
+ MRCHUE: Inverse mode at  21     Hk =   3.800
+ MRCHUE: Inverse mode at  22     Hk =   3.800
+ MRCHUE: Inverse mode at  23     Hk =   3.800
+ MRCHUE: Inverse mode at  24     Hk =   3.800
+ MRCHUE: Inverse mode at  25     Hk =   3.800
+ MRCHUE: Inverse mode at  26     Hk =   3.800
+ MRCHUE: Inverse mode at  27     Hk =   2.500
+ MRCHUE: Inverse mode at  29     Hk =   1.010
+ MRCHUE: Inverse mode at  30     Hk =   1.010
+ MRCHUE: Inverse mode at  31     Hk =   1.010
+ MRCHUE: Inverse mode at  32     Hk =   1.010
+ MRCHUE: Inverse mode at  33     Hk =   1.010
+ MRCHUE: Inverse mode at  34     Hk =   1.010
+ MRCHUE: Inverse mode at  35     Hk =   1.010
+ 
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01310  0.01455  N:  0.000  9.000  9.444  Nx:1022.339   dN:-0.101E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx: 884.219   dN:-0.955E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx: 789.177   dN: 0.248E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx:1156.707   dN:-0.948E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:1036.736   dN: 0.609E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01310  0.01455  N:  0.000  9.000  9.444  Nx:1954.233   dN:-0.100E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx:1786.601   dN:-0.947E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:1618.210   dN: 0.145E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx:2434.215   dN:-0.946E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01310  0.01455  N:  0.000  9.000  9.444  Nx:2432.592   dN:-0.100E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx:2232.344   dN:-0.947E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:2014.940   dN: 0.203E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01255  0.01455  N:  0.000  9.000  9.830  Nx:3093.023   dN:-0.105E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:2457.924   dN: 0.268E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.00893  0.01455  N:  0.000  9.000 13.660  Nx:4882.040   dN:-0.147E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx:2438.328   dN:-0.946E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01310  0.01455  N:  0.000  9.000  9.444  Nx:2460.406   dN:-0.100E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01387  0.01455  N:  0.000  9.000  9.000  Nx:2248.794   dN:-0.947E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:2031.497   dN: 0.206E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01213  0.01455  N:  0.000  9.000 10.146  Nx:3244.617   dN:-0.108E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01447  0.01455  N:  0.000  9.000  9.000  Nx:2511.435   dN:-0.907E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:2431.200   dN: 0.264E+02
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.00889  0.01455  N:  0.000  9.000 13.727  Nx:4910.332   dN:-0.148E+02
+ MRCHDU: Convergence failed at   3  side 1    Res =  0.2152E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:2247.328   dN: 0.237E+02
+ MRCHDU: Convergence failed at   6  side 1    Res =  0.5453E+00
+ MRCHDU: Convergence failed at   7  side 1    Res =  0.1081E+01
+ MRCHDU: Convergence failed at   8  side 1    Res =  0.1785E+01
+ MRCHDU: Convergence failed at   9  side 1    Res =  0.1542E+01
+ MRCHDU: Convergence failed at  10  side 1    Res =  0.6839E+01
+ MRCHDU: Convergence failed at  11  side 1    Res =  0.3042E+02
+ MRCHDU: Convergence failed at  12  side 1    Res =  0.1052E+03
+ MRCHDU: Convergence failed at  13  side 1    Res =  0.4752E+02
+ MRCHDU: Convergence failed at  14  side 1    Res =  0.5923E+01
+ MRCHDU: Convergence failed at  15  side 1    Res =  0.2500E+02
+ MRCHDU: Convergence failed at  16  side 1    Res =  0.6357E+01
+ MRCHDU: Convergence failed at  17  side 1    Res =  0.9168E+01
+ MRCHDU: Convergence failed at  18  side 1    Res =  0.1322E+01
+ MRCHDU: Convergence failed at  19  side 1    Res =  0.1285E+01
+ MRCHDU: Convergence failed at  20  side 1    Res =  0.1107E+01
+ MRCHDU: Convergence failed at  21  side 1    Res =  0.1016E+01
+ MRCHDU: Convergence failed at  22  side 1    Res =  0.9600E+00
+ MRCHDU: Convergence failed at  23  side 1    Res =  0.8920E+00
+ MRCHDU: Convergence failed at  24  side 1    Res =  0.7355E+00
+ MRCHDU: Convergence failed at  25  side 1    Res =  0.1295E+01
+ MRCHDU: Convergence failed at  26  side 1    Res =  0.5081E+01
+ TRCHEK2: N2 convergence failed.
+ x:  0.00000  0.01455  0.01455  N:  0.000  9.000 10.000  Nx:2247.328   dN: 0.237E+02
+ Side 1  free  transition at x/c =  0.0017    3
+ Side 2 forced transition at x/c =  1.0000   27
+ STFIND: Stagnation point not found. Continuing ...
+
+   1   rms:  NaN         max: 0.0000E+00     at    0  0
+       a = 90.000      CL = NaN    
+      Cm = NaN         CD = NaN        =>   CDf = NaN         CDp = NaN     
+ 
+ CPCALC: Local speed too large. Compressibility corrections invalid.
+
+ Point added to stored polar  1
+ Save file unspecified or not available
+ Dump file unspecified or not available
+
+.OPERva   c>  
+.OPERva   c>  
+.OPERva   c>   
+        airfoil                    Re           Mach       Ncrit  XtripT  XtripB     file
+       ------------------------  ------------  ----------  -----  ------  ------    -------------------
+ >  1                            3.000e6       0.000        9.00   1.000   1.000    
+
+Enter polar output filename   s>   
+ Output file exists.  Overwrite?  Y
+
+.OPERva   c>  
+ XFOIL   c>  

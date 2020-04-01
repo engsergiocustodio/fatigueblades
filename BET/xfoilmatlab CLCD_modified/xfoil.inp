@@ -1,0 +1,21 @@
+plop
+g
+
+load  NACA653618.txt
+
+oper
+iter  10000.000000
+re  3000000.000000
+mach  0.000000
+visc
+pacc
+
+
+alfa  90.000000
+cpwr cpwr.txt
+dump dump.txt
+pwrt
+pwrt.txt
+y
+
+quit
